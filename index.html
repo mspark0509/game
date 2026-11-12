@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#101111" name="theme-color" />
+    <meta content="아르카나: 균열의 서약. 신화 속 몬스터와 함께 완성하는 나만의 카드 전략." name="description" />
+    <title>ARCANA — 균열의 서약</title>
+    <link href="icons/emblem.svg" rel="icon" type="image/svg+xml" />
+    <link href="style.css" rel="stylesheet" />
+    <script defer="" src="script.js"></script>
+    <link href="pages.css" rel="stylesheet" />
+    <script defer="True" src="pages.js"></script>
+</head>
+
+<body>
+    <a class="skip" href="#main">본문 바로가기</a>
+    <header class="header"><a aria-label="아르카나 홈" class="brand" href="index.html"><img alt=""
+                src="icons/emblem.svg" /><span>ARCANA<small>THE OATH OF RIFT</small></span></a>
+        <nav aria-label="주 메뉴" id="navigation"><a href="about.html">게임 소개</a><a href="news.html">새소식</a><a
+                href="monsters.html">몬스터 도감</a><a href="guide.html">게임 가이드</a><a href="events.html">이벤트</a></nav>
+        <div class="header-actions"><button class="login-link" data-login="">로그인 <span>↗</span></button><button
+                class="button gold small" data-start="">게임 시작 <span>↗</span></button><button aria-controls="navigation"
+                aria-expanded="false" aria-label="메뉴 열기" class="menu-button">☰</button></div>
+    </header>
+    <main id="main">
+        <section class="hero" id="home">
+            <div class="hero-shade"></div>
+            <div class="hero-inner">
+                <p class="eyebrow"><span></span> SEASON 01 · THE AWAKENING</p>
+                <p class="hero-kicker">잊혀진 신화가, 당신의 손에서 깨어난다.</p>
+                <h1>ARCANA</h1>
+                <p class="hero-subtitle">균열의 서약</p>
+                <div class="ornament"><i></i>◆<i></i></div>
+                <p class="hero-description">신을 넘어설 한 장의 카드.<br />운명을 뒤집을 당신만의 전략을 펼쳐보세요.</p>
+                <div class="hero-buttons"><button class="button gold" data-start="">나의 서약 시작하기
+                        <span>↗</span></button><button class="button outline" data-story=""><span class="play">▷</span>
+                        세계관 살펴보기</button></div>
+                <p class="platform">ORIGINAL FANTASY CARD GAME <span>✦</span> WEB CONCEPT</p>
+            </div>
+            <div class="hero-bottom"><a class="scroll-cue" href="#news"><span>↓</span> SCROLL TO EXPLORE</a>
+                <div class="season-indicator"><b>01</b><i></i><span>첫 번째 균열</span></div><span class="hero-caption">THE
+                    OATH IS YOURS TO MAKE.</span>
+            </div>
+        </section>
+        <div class="notice">
+            <div><span class="tag">NOTICE</span><button data-article="0">새로운 소환사 여러분, 아르카나의 세계에 오신 것을 환영합니다.</button>
+            </div><span class="notice-date">WORLD GUIDE <b>↗</b></span>
+        </div>
+        <section class="section news" id="news">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">THE LATEST</p>
+                    <h2>아르카나의 새로운 이야기</h2>
+                </div>
+                <div aria-label="새소식 분류" class="filters" role="group"><button aria-pressed="true" class="active"
+                        data-filter="all">전체</button><button aria-pressed="false"
+                        data-filter="notice">공지사항</button><button aria-pressed="false"
+                        data-filter="update">업데이트</button><button aria-pressed="false" data-filter="event">이벤트</button>
+                </div>
+            </div>
+            <div class="news-grid">
+                <button class="news-card" data-article="1" data-category="update">
+                    <div class="news-art art-one"><span class="art-label">THE AWAKENING</span><span
+                            class="image-index">01 / SEASON</span></div>
+                    <div class="news-meta"><span>업데이트</span><small>SEASON 01</small></div>
+                    <h3>첫 번째 시즌, 깨어나는 신화</h3>
+                    <p>빛과 심연 사이, 새로운 서약의 이야기가 시작됩니다.</p><span class="read-more">자세히 보기 <b>↗</b></span>
+                </button>
+                <button class="news-card" data-article="0" data-category="notice">
+                    <div class="news-art art-two">
+                        <div class="card-back"><img alt="" src="icons/emblem.svg" /><span>ARCANA</span></div><span
+                            class="image-index">02 / GUIDE</span>
+                    </div>
+                    <div class="news-meta"><span>공지사항</span><small>BEGINNER’S GUIDE</small></div>
+                    <h3>처음 만나는 아르카나</h3>
+                    <p>첫 덱 구성부터 전장 배치까지, 소환사를 위한 안내서.</p><span class="read-more">자세히 보기 <b>↗</b></span>
+                </button>
+                <button class="news-card" data-article="2" data-category="event">
+                    <div class="news-art art-three"><span class="event-rune">VII</span>
+                        <div class="gold-orbit"></div><span class="image-index">03 / EVENT</span>
+                    </div>
+                    <div class="news-meta"><span>이벤트</span><small>SPECIAL CHALLENGE</small></div>
+                    <h3>일곱 번의 서약, 새로운 가능성</h3>
+                    <p>7가지 전술 미션으로 나만의 플레이 스타일을 찾아보세요.</p><span class="read-more">자세히 보기 <b>↗</b></span>
+                </button>
+            </div><a class="section-page-link" href="news.html">새소식 전체 보기 ↗</a>
+        </section>
+        <section class="story" id="story">
+            <div class="story-bg"></div>
+            <div class="story-content">
+                <p class="eyebrow">A WORLD BEYOND THE RIFT</p>
+                <h2>무너진 세계.<br />다시 쓰는 <em>운명.</em></h2>
+                <p>하나의 서약으로 이어졌던 일곱 왕국.<br />봉인이 깨진 날, 빛과 어둠의 경계가 무너졌습니다.</p>
+                <p>잊혀진 존재들이 카드에 깃든 지금,<br />당신은 그들의 힘을 깨우는 마지막 소환사입니다.</p><button class="text-link" data-story="">아르카나의
+                    세계관 읽기 <span>↗</span></button>
+            </div>
+            <div aria-hidden="true" class="story-mark">A</div>
+            <div class="story-foot"><span>CHAPTER I</span><i></i><span>THE BROKEN COVENANT</span></div><a
+                class="section-page-link" href="about.html">게임 소개 전체 보기 ↗</a>
+        </section>
+        <section class="section monsters" id="monsters">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">MEET YOUR LEGENDS</p>
+                    <h2>신화를 소환하다</h2>
+                    <p class="section-description">서로 다른 힘, 무한한 조합. 당신과 함께할 존재를 만나보세요.</p>
+                </div><span class="section-number">01 — 07</span>
+            </div>
+            <div class="monster-stage">
+                <div class="monster-visual">
+                    <div class="seal"></div>
+                    <div class="monster-frame" role="button" tabindex="0" aria-label="선택한 몬스터 이미지 확대"><span
+                            class="zoom-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none">
+                                <circle cx="10" cy="10" r="6" />
+                                <path d="m15 15 6 6M10 7v6M7 10h6" />
+                            </svg></span>
+                        <div aria-label="황금 갑옷과 하얀 날개를 가진 세라피온" class="sprite" id="monster-image" role="img"></div>
+                    </div><span class="visual-caption">REFINED MONSTER ARTWORK</span>
+                </div>
+                <div class="monster-copy">
+                    <div class="monster-badges"><span id="monster-element">빛 / CELESTIAL</span><span
+                            id="monster-rarity">LEGENDARY</span></div>
+                    <p class="monster-en" id="monster-en">SERAPHION</p>
+                    <h3 id="monster-name">서약의 수호자, 세라피온</h3>
+                    <p id="monster-description">빛의 성역을 지키는 마지막 파수꾼. 거대한 날개 아래 아군을 보호하고, 황금의 검으로 전장의 흐름을 바꿉니다.</p>
+                    <div class="stats">
+                        <div><small>소환 비용</small><strong id="stat-cost">10</strong></div>
+                        <div><small>공격력</small><strong id="stat-attack">8</strong></div>
+                        <div><small>생명력</small><strong id="stat-health">12</strong></div>
+                    </div>
+                    <div class="skill"><img alt="" src="icons/spark.svg" />
+                        <div><strong id="skill-name">성역의 날개</strong>
+                            <p id="skill-description">소환 시, 아군 전체에 보호막을 부여합니다.</p>
+                        </div>
+                    </div>
+                    <p class="concept-note">도감 이름과 능력치는 웹사이트를 위한 창작 설정입니다.</p>
+                </div>
+            </div>
+            <div aria-label="몬스터 선택" class="monster-select" role="group"></div><a class="section-page-link"
+                href="monsters.html">몬스터 도감 전체 보기 ↗</a>
+        </section>
+        <section class="guide section" id="guide">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">YOUR DECK. YOUR DESTINY.</p>
+                    <h2>승리는, 당신의 선택으로부터.</h2>
+                </div>
+                <p class="section-description">카드를 모으는 즐거움에서<br />전장을 지배하는 짜릿함까지.</p>
+            </div>
+            <div class="guide-layout">
+                <div class="battle-preview">
+                    <div aria-label="사용자가 제작한 카드게임 전장" class="battle-image" role="img"></div><span>ORIGINAL GAME
+                        CONCEPT</span>
+                </div>
+                <div class="guide-steps"><button aria-expanded="true" class="guide-step active"
+                        data-step="0"><span>01</span>
+                        <div>
+                            <h3>당신만의 덱을 구성하세요</h3>
+                            <p>공격, 수호, 지원. 각 몬스터의 역할을 조합해 나만의 전략을 완성하세요.</p>
+                        </div><b>−</b>
+                    </button><button aria-expanded="false" class="guide-step" data-step="1"><span>02</span>
+                        <div>
+                            <h3>전장의 흐름을 읽으세요</h3>
+                            <p>매 턴 주어지는 자원을 관리하고, 상대의 다음 수를 예측하세요. 강한 카드보다 적절한 타이밍이 중요합니다.</p>
+                        </div><b>+</b>
+                    </button><button aria-expanded="false" class="guide-step" data-step="2"><span>03</span>
+                        <div>
+                            <h3>결정적인 한 수를 펼치세요</h3>
+                            <p>수호자로 공격을 견디고, 지원 능력으로 기회를 만든 뒤, 강력한 소환으로 승부를 뒤집으세요.</p>
+                        </div><b>+</b>
+                    </button></div>
+            </div><a class="section-page-link" href="guide.html">게임 가이드 전체 보기 ↗</a>
+        </section>
+        <section class="event-section section" id="events">
+            <div class="event-panel">
+                <div>
+                    <p class="eyebrow">THE FIRST COVENANT</p>
+                    <h2>당신의 첫 번째 서약을<br />기다립니다.</h2>
+                    <p>선호하는 속성을 선택하고, 당신과 어울리는<br />첫 번째 소환사를 위한 추천 카드를 만나보세요.</p><button class="button gold"
+                        id="affinity-open">나의 시작 카드 찾기 <span>↗</span></button>
+                </div>
+                <div aria-hidden="true" class="event-card-group">
+                    <div class="card-back side-card"><img alt="" src="icons/emblem.svg" /><span>ARCANA</span></div>
+                    <div class="card-back front-card"><img alt="" src="icons/emblem.svg" /><span>ARCANA</span><small>THE
+                            FIRST COVENANT</small></div>
+                </div><span class="event-label">DISCOVER YOUR AFFINITY</span>
+            </div><a class="section-page-link" href="events.html">이벤트 전체 보기 ↗</a>
+        </section>
+        <section class="section media" id="media">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">FROM THE WORLD OF ARCANA</p>
+                    <h2>신화의 기록</h2>
+                </div>
+                <p class="section-description">아르카나의 분위기와 새롭게 다듬은 몬스터 아트를 감상하세요.</p>
+            </div>
+            <div class="media-grid"><button class="media-item media-keyart" data-gallery="hero"><span>KEY VISUAL
+                        <b>↗</b></span>
+                    <h3>균열 너머의 빛</h3>
+                </button><button class="media-item media-original" data-gallery="original">
+                    <div class="gallery-sprite"></div><span>REFINED ART <b>↗</b></span>
+                    <h3>일곱 존재의 탄생</h3>
+                </button></div>
+        </section>
+        <section class="section faq" id="faq">
+            <div>
+                <p class="eyebrow">NEED A LITTLE GUIDANCE?</p>
+                <h2>궁금한 이야기</h2>
+                <p class="section-description">새로운 소환사를 위한 짧은 안내.</p>
+            </div>
+            <div class="faq-list">
+                <details>
+                    <summary>아르카나는 어떤 게임인가요?</summary>
+                    <p>제공된 몬스터 원화와 카드게임 시안을 바탕으로 구성한 판타지 전략 카드게임 콘셉트입니다. 이 페이지에서 세계관과 몬스터 도감, 덱 구성 가이드를 확인할 수 있습니다.</p>
+                </details>
+                <details>
+                    <summary>지금 바로 게임을 플레이할 수 있나요?</summary>
+                    <p>현재는 메인페이지 프로토타입입니다. 실제 카드 대전과 다운로드 기능은 포함되어 있지 않습니다. 게임 시작 버튼에서는 준비 상태와 가이드를 안내합니다.</p>
+                </details>
+                <details>
+                    <summary>로그인 정보가 서버에 저장되나요?</summary>
+                    <p>아니요. 로그인창은 화면 동작을 확인하기 위한 체험용입니다. 실제 계정 인증이나 비밀번호 저장·전송은 하지 않습니다. 체험용 닉네임만 현재 탭에 유지됩니다.</p>
+                </details>
+                <details>
+                    <summary>모바일에서도 볼 수 있나요?</summary>
+                    <p>네. PC, 태블릿, 모바일 화면에 맞춰 콘텐츠가 재배치됩니다. 몬스터 목록은 작은 화면에서 좌우로 스크롤할 수 있습니다.</p>
+                </details>
+            </div>
+        </section>
+        <section class="closing"><img alt="" src="icons/emblem.svg" />
+            <p class="eyebrow">ONE CARD CAN CHANGE EVERYTHING</p>
+            <h2>이제, 당신의 차례입니다.</h2><button class="button gold" data-start="">서약의 세계로 <span>↗</span></button>
+        </section>
+    </main>
+    <footer><a class="brand" href="index.html"><img alt="" src="icons/emblem.svg" /><span>ARCANA<small>THE OATH OF
+                    RIFT</small></span></a>
+        <div>
+            <p>오리지널 카드게임 웹사이트 콘셉트 · 몬스터 원화: 제공 이미지</p>
+            <p>© 2026 ARCANA CONCEPT. 실제 출시 게임 및 운영 서비스가 아닌 디자인 프로토타입입니다.</p>
+        </div><button aria-label="맨 위로" class="back-top">↑</button>
+    </footer>
+    <dialog aria-labelledby="login-title" id="login-modal"><button aria-label="닫기" class="modal-close">×</button><img
+            alt="" class="dialog-emblem" src="icons/emblem.svg" />
+        <p class="eyebrow">WELCOME, SUMMONER</p>
+        <h2 id="login-title">서약의 세계에 오신 것을<br />환영합니다.</h2>
+        <p class="modal-intro">로그인 UI 체험용입니다. 실제 비밀번호를 입력하지 마세요.</p>
+        <form id="login-form"><label for="nickname">소환사 이름</label><input autocomplete="off" id="nickname" maxlength="16"
+                minlength="2" name="nickname" placeholder="2~16자 닉네임" required="" /><label for="password">체험용
+                비밀번호</label>
+            <div class="password-wrap"><input autocomplete="off" id="password" minlength="4" name="password"
+                    placeholder="임의의 문자 4자 이상" required="" type="password" /><button aria-label="비밀번호 보기"
+                    id="password-toggle" type="button">보기</button></div>
+            <p class="form-note">입력한 비밀번호는 저장하거나 전송하지 않습니다.</p><button class="button gold full" type="submit">체험 로그인
+                <span>↗</span></button><button class="guest-button" id="guest-login" type="button">게스트 소환사로
+                둘러보기</button>
+        </form>
+    </dialog>
+    <dialog aria-labelledby="content-title" id="content-modal"><button aria-label="닫기" class="modal-close">×</button>
+        <p class="eyebrow" id="content-category">ARCANA ARCHIVE</p>
+        <h2 id="content-title"></h2>
+        <div id="content-body"></div>
+    </dialog>
+    <dialog aria-labelledby="affinity-title" id="affinity-modal"><button aria-label="닫기" class="modal-close">×</button>
+        <p class="eyebrow">FIND YOUR FIRST CARD</p>
+        <h2 id="affinity-title">어떤 힘과 서약하시겠습니까?</h2>
+        <p class="modal-intro">마음이 이끄는 속성을 선택하세요.</p>
+        <div class="affinity-options"><button data-affinity="0">✧<strong>빛</strong><small>보호와 균형</small></button><button
+                data-affinity="1">≈<strong>심연</strong><small>제어와 인내</small></button><button
+                data-affinity="4">❧<strong>자연</strong><small>속도와 연계</small></button></div>
+        <div aria-live="polite" id="affinity-result"></div>
+    </dialog>
+    <div id="toast" role="status"></div>
+</body>
+
+</html>

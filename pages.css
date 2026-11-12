@@ -1,0 +1,81 @@
+/* Shared multi-page additions. */
+.header nav a[aria-current=page]{color:var(--gold)}.header nav a[aria-current=page]:after{width:100%;left:0}.page-hero{height:440px;position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:#0b131e}.page-hero-art{position:absolute;inset:0;background:linear-gradient(90deg,#0b131ef2,#0b131e88),linear-gradient(0deg,#111313,transparent 60%),url(images/hero-keyart.png) center 40%/cover}.page-heading{position:relative;padding:120px 6% 50px;z-index:1}.breadcrumb{display:flex;gap:15px;color:#8a959e;font:9px Arial;letter-spacing:2px;margin-bottom:42px}.breadcrumb a:hover{color:var(--gold)}.page-heading h1{font-size:clamp(32px,4vw,56px);letter-spacing:-2px;font-weight:500;margin:12px 0}.page-heading>p:last-child{font-size:14px;color:#aab5be}.page-watermark{position:absolute;bottom:-30px;right:4%;font:110px Georgia;letter-spacing:8px;color:#ffffff05;white-space:nowrap}.inner-page .story{min-height:610px}.section-page-link{display:block;position:relative;width:max-content;margin:35px 0 0;color:var(--gold);font-size:12px;border-bottom:1px solid var(--line);padding:8px 0}.story>.section-page-link{z-index:2}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:38px;margin:45px 0}.feature-grid article{border-top:1px solid var(--line);padding-top:22px}.feature-index{font:30px Georgia;color:var(--gold)}.feature-grid h3{font-size:21px;font-weight:400;margin:18px 0 12px}.feature-grid p,.timeline p,.card-anatomy p{font-size:13px;color:var(--muted);line-height:1.9}.lore-band{background:linear-gradient(120deg,#17212b,#121819)}.lore-band h2{margin-top:15px}.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin:45px 0}.timeline article{display:flex;gap:20px}.timeline b{font:35px Georgia;color:var(--gold)}.timeline h3{margin-bottom:15px;font-weight:400}.news-intro{display:grid;grid-template-columns:1fr 1.5fr;gap:50px;background:#151a1e}.news-intro h2{margin-top:20px;font-size:40px}.news-intro p:not(.eyebrow){color:var(--muted);font-size:13px;margin-top:20px;line-height:1.9}.news-feature-art{min-height:300px;background:url(images/hero-keyart.png) center/cover}.bulletin{padding-top:0}.bulletin>button{display:flex;align-items:center;gap:25px;width:100%;padding:25px 0;border-top:1px solid var(--line);text-align:left}.bulletin>button strong{font-weight:400}.bulletin>button>span:last-child{margin-left:auto;color:var(--gold)}.bulletin>button:hover strong{color:var(--gold)}.sprite,.mini-art,.atlas-art{background-image:url(images/monsters-refined.png);background-size:400% 200%;background-repeat:no-repeat;background-position:var(--ax,0%) var(--ay,0%)}.monster-frame{width:300px;height:400px;border:0;box-shadow:none}.mini-art{width:60px;height:80px;border-radius:0}.roster-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}.roster-card{padding:0;text-align:left;background:#151c23;border:1px solid #d0b47a22;overflow:hidden;transition:border-color .2s}.roster-card:hover{border-color:var(--gold)}.atlas-art{aspect-ratio:3/4;width:100%}.roster-card>div:last-child{padding:20px}.roster-card small{font-size:9px;letter-spacing:1px;color:var(--gold)}.roster-card h3{font-weight:400;font-size:21px;margin:10px 0}.roster-card p{font-size:11px;color:var(--muted)}.card-guide{display:grid;grid-template-columns:1fr 1.4fr;gap:12%;align-items:center;margin-top:50px}.example-card{width:280px;max-width:100%;margin:auto;border:1px solid var(--gold);background:#111a22;position:relative;box-shadow:0 15px 60px #0006}.example-card>div:last-child{padding:22px}.example-card small{color:var(--gold);letter-spacing:1px;font-size:9px}.example-card h3{font-size:25px;font-weight:400;margin:8px 0}.example-card p{font-size:12px;color:var(--muted)}.example-card strong{display:block;margin-top:20px;font:18px Georgia;color:var(--gold)}.example-card strong span{float:right}.cost-token{position:absolute;top:10px;left:10px;border:1px solid var(--gold);border-radius:50%;background:#172c40;width:44px;height:44px;display:grid;place-items:center;font:20px Georgia;color:var(--gold)}.card-anatomy article{padding:25px 0;border-bottom:1px solid var(--line)}.card-anatomy b{font-size:10px;color:var(--gold);letter-spacing:2px;font-weight:400}.card-anatomy h3{font-weight:400;margin:10px 0}.mission-intro{font-size:14px;color:var(--muted);margin-bottom:30px}.mission-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.mission{position:relative;border:1px solid var(--line);padding:28px 20px;background:linear-gradient(145deg,#17212b,#11171c);cursor:pointer;min-height:180px}.mission input{position:absolute;right:16px;top:17px;width:17px;height:17px;accent-color:var(--gold)}.mission>span{display:block;font-size:9px;letter-spacing:2px;color:var(--gold);margin-bottom:25px}.mission strong{font-size:15px;font-weight:400;display:block}.mission small{font-size:10px;color:var(--muted);display:block;margin-top:15px}.mission:has(input:checked){border-color:var(--gold);background:#bba06717}.mission:has(input:checked) small{color:var(--gold)}.mission-progress{display:flex;align-items:center;gap:25px;padding:25px 0;font-size:12px;color:var(--gold)}.mission-progress progress{flex:1;height:5px;accent-color:var(--gold)}.mission-progress button{color:var(--muted);font-size:11px}.event-bottom{text-align:center;background:linear-gradient(#0e1824cc,#101313e8),url(images/hero-keyart.png) center/cover}.event-bottom h2{margin:25px 0}.gallery-sprite{background:url(images/monsters-refined.png) 66.666% 100%/400% 200%;inset:auto;width:225px;height:300px;top:0;left:calc(50% - 112px);transform:none;opacity:1}
+@media(max-width:1000px){.roster-grid,.mission-grid{grid-template-columns:repeat(3,1fr)}.timeline{gap:20px}.card-guide{gap:7%}.feature-grid{gap:25px}.page-heading h1{font-size:40px}}
+@media(max-width:767px){.page-hero{height:360px}.page-heading{padding:100px 6% 35px}.breadcrumb{margin-bottom:30px;font-size:8px}.page-heading h1{font-size:30px;letter-spacing:-1.5px;line-height:1.4;max-width:320px}.page-heading>p:last-child{font-size:12px;max-width:300px;line-height:1.9}.page-watermark{font-size:65px;bottom:-15px}.feature-grid,.timeline,.news-intro,.card-guide{grid-template-columns:1fr}.feature-grid,.timeline{gap:25px}.feature-grid h3{font-size:20px}.news-intro{gap:30px}.news-intro h2{font-size:32px}.news-feature-art{min-height:220px}.bulletin>button{gap:12px;font-size:12px}.bulletin .tag{font-size:7px;padding:3px 5px}.roster-grid,.mission-grid{grid-template-columns:repeat(2,1fr);gap:12px}.roster-card>div:last-child{padding:12px}.roster-card h3{font-size:17px}.roster-card small{font-size:7px;letter-spacing:0}.roster-card p{font-size:9px}.card-guide{gap:25px}.mission{padding:22px 14px;min-height:180px}.mission strong{font-size:13px}.mission>span{font-size:8px;letter-spacing:1px}.mission-progress{gap:12px;font-size:10px}.section-page-link{font-size:11px}.monster-visual{height:430px}}
+/* Additional environments and artwork lightbox. */
+.battle-image{aspect-ratio:16/9;background:url(images/gameplay-table.png) center/contain no-repeat}
+.battle-preview{cursor:zoom-in}
+.monster-frame{cursor:zoom-in;position:relative}
+.zoom-badge{position:absolute;right:12px;bottom:12px;width:31px;height:31px;border:1px solid #d0b47a88;background:#101a22d9;border-radius:50%;display:grid;place-items:center;color:var(--gold)}
+.zoom-badge svg{width:17px;height:17px;stroke:currentColor;stroke-width:1.5}
+.monster-frame:hover .zoom-badge{background:#334658}
+#art-lightbox{width:min(800px,94vw);padding:30px;background:#0a121c;text-align:center}
+#art-lightbox h2{font-size:20px;margin:5px 0 20px}
+.enlarged-monster{width:min(450px,100%);aspect-ratio:3/4;max-height:70svh;margin:auto;background-image:url(images/monsters-refined.png);background-size:400% 200%;background-repeat:no-repeat}
+#art-lightbox.gameplay-lightbox{width:min(1350px,96vw)}
+.lightbox-gameplay{width:100%;height:auto;display:block}
+.page-news .page-hero-art,.page-about .page-hero-art{background-image:linear-gradient(90deg,#0b131ed9,#0b131e33),linear-gradient(0deg,#111313,transparent 70%),url(images/archive-room.png)}
+.story-bg{background:linear-gradient(90deg,#0b141bea,#09151b77),url(images/archive-room.png) center/cover}
+.page-guide .page-hero-art,.page-events .page-hero-art{background-image:linear-gradient(90deg,#0b131ed9,#0b131e33),linear-gradient(0deg,#111313,transparent 70%),url(images/strategy-desk.png)}
+.closing,.event-bottom{background:linear-gradient(#0d141c99,#101313e8),url(images/strategy-desk.png) center/cover}
+.news-feature-art{background-image:url(images/gameplay-table.png)}
+/* Key visual: preserve the artwork ratio and remove the decorative frame. */
+.media-keyart,.media-keyart:hover{
+  height:auto;
+  aspect-ratio:16/9;
+  width:100%;
+  min-width:0;
+  border:0;
+  box-shadow:none;
+  background-image:url('images/hero-keyart.png');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.media-grid{align-items:stretch}
+.media-grid .media-original{height:auto;min-height:0}
+@media(max-width:767px){.media-grid .media-original{height:250px}}
+/* About: one visual header followed by a calm text-led introduction. */
+.page-about .story{background:#14191d;min-height:0;padding-top:75px;padding-bottom:65px;border-top:0}
+.page-about .story-bg{display:none}
+.page-about .story-mark{font-size:340px;top:-35px;color:#ffffff02;-webkit-text-stroke:1px #d0b47a12}
+.page-about .story h2{font-size:clamp(32px,3.4vw,48px)}
+.event-list-section{padding-bottom:45px}
+.event-banner-list{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.event-banner-link{display:block;position:relative;min-width:0;aspect-ratio:16/9;overflow:hidden;background:#12202d;border:1px solid #b69b5d33}
+.event-banner-link:hover{border-color:var(--gold)}
+.event-banner-link>img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.event-banner-link:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#07101ce8,#07101c33 80%)}
+.event-banner-copy{position:relative;z-index:1;display:flex;flex-direction:column;justify-content:center;min-height:100%;padding:35px;max-width:75%}
+.event-banner-copy small{color:var(--gold);font-size:9px;letter-spacing:2px}
+.event-banner-copy h3{font-size:clamp(20px,2vw,30px);font-weight:400;margin:13px 0;letter-spacing:-1px}
+.event-banner-copy p{font-size:11px;color:#b8c1c9}
+.event-banner-copy>span{color:var(--gold);font-size:11px;margin-top:25px}
+.event-pagination{display:flex;gap:10px;justify-content:center;margin:32px 0}
+.event-pagination a{display:grid;place-items:center;width:38px;height:38px;border:1px solid #ffffff20;color:#aab4bd;font-size:12px}
+.event-pagination a[aria-current=page]{background:var(--gold);border-color:var(--gold);color:#111}
+.event-pagination a:hover{border-color:var(--gold)}
+.event-detail{max-width:1100px;margin:auto}
+.event-detail-visual{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;margin-bottom:35px}
+.event-detail h2{margin:35px 0 20px;font-size:28px}
+.event-detail p,.event-detail li{color:#aeb8bf;font-size:14px;line-height:2}
+.event-detail .event-info{display:flex;gap:30px;flex-wrap:wrap;border-block:1px solid var(--line);padding:20px 0;margin-bottom:30px;font-size:12px;color:var(--gold)}
+.event-detail .button{margin:35px 12px 0 0}
+@media(max-width:767px){.event-banner-list{grid-template-columns:1fr;gap:18px}.event-banner-copy{padding:24px}.event-banner-copy h3{font-size:23px}.event-banner-copy>span{margin-top:15px}.event-banner-copy p{font-size:10px}.event-detail p,.event-detail li{font-size:12px}.page-about .story{padding-top:55px;padding-bottom:50px}}
+/* Requested alignment and event layout refinements. */
+.media-keyart{border:1px solid transparent}
+.media-keyart:hover{border:1px solid var(--gold)}
+.page-about .story{text-align:center;padding-inline:6%;background:#111820}
+.page-about .story-content{max-width:900px;margin:auto}
+.page-about .story-bg{display:block;background:linear-gradient(#0a111b55,#0a111b99),url(images/story-center.png) center/cover}
+.page-about .story-mark{display:none}
+.page-about .story-foot{justify-content:center}
+.page-about .text-link span{margin-left:20px}
+.event-banner-list{grid-template-columns:1fr;gap:25px}
+.event-banner-link{aspect-ratio:auto;min-height:350px;display:flex;align-items:center}
+.event-banner-link>img{object-position:center right}
+.event-banner-link:after{background:linear-gradient(90deg,#07101cf2,#07101c88 45%,#07101c11 80%)}
+.event-banner-copy{min-height:350px;max-width:60%;padding:50px 60px}
+.event-banner-copy h3{font-size:34px}
+.event-banner-copy p{font-size:13px}
+@media(max-width:767px){.event-banner-link{min-height:270px}.event-banner-copy{min-height:270px;max-width:85%;padding:30px 25px}.event-banner-copy h3{font-size:27px}.event-banner-copy p{font-size:11px}.page-about .story h2{font-size:32px}.page-about .story-foot{gap:10px;font-size:7px}}
